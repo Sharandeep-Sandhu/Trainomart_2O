@@ -27,8 +27,8 @@ handlers:
 - url: /about-us.html
   script: about-us.html
 
-- url: /consulting-services.html
-  script: consulting-services.html  
+- url: /candidate-services.html
+  script: candidate-services.html 
  
 - url: /contact-us.html
   script: contact-us.html  
@@ -54,12 +54,6 @@ handlers:
 - url: /logo
   static_dir: logo
   
-- url: /node_modules
-  static_dir: node_modules
-  
-- url: /vendor
-  static_dir: vendor
-
 
 - url: /vendor/autoload.php
   script: vendor/autoload.php  
